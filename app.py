@@ -105,9 +105,10 @@ mae = mean_absolute_error(y, y_pred)
 r2 = model.rsquared
 
 st.write("### Métricas de Desempenho")
-st.markdown(f"- R²: `{r2:.4f}`
+st.markdown(f"""- R²: `{r2:.4f}`
 - RMSE: `{rmse:.2f}`
-- MAE: `{mae:.2f}`")
+- MAE: `{mae:.2f}`""")
+
 
 # Interpretação
 st.write("### Interpretação dos Coeficientes")
